@@ -14,7 +14,7 @@ require('chai').should();
 
 describe ('etcd-discovery-url', function () {
   it ('request discovery url', function * () {
-    var url = yield discoveryUrl();
+    var url = yield discoveryUrl;
     
     url.should.match(/https\:\/\/discovery\.etcd\.io\/[a-z0-9]{32}/i);
   });
