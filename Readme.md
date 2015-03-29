@@ -21,6 +21,8 @@ let url = yield discoveryUrl; // 'https://discovery.etcd.io/ea08c54315144a0b5713
 
 ### Tests
 
+[![Circle CI](https://circleci.com/gh/vdemedes/etcd-discovery-url.svg?style=svg)](https://circleci.com/gh/vdemedes/etcd-discovery-url)
+
 ```
 $ npm test
 ```
