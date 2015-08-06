@@ -4,7 +4,7 @@
   "description": "Request a discovery url from discovery.etcd.io",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --harmony"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/vdemedes/etcd-discovery-url",
   "devDependencies": {
     "chai": "^2.2.0",
+    "make-lint": "vdemedes/make-lint",
     "mocha": "^2.2.1",
     "mocha-generators": "^1.0.0"
   },
