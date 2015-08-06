@@ -26,6 +26,7 @@
     "mocha-generators": "^1.0.0"
   },
   "dependencies": {
-    "co-request": "^0.2.0"
+    "got": "^4.1.1",
+    "got-retry": "^1.0.3"
   }
 }
