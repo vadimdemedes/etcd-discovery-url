@@ -1,4 +1,4 @@
-# etcd-discovery-url
+# etcd-discovery-url [![Circle CI](https://circleci.com/gh/vdemedes/etcd-discovery-url.svg?style=svg)](https://circleci.com/gh/vdemedes/etcd-discovery-url)
 
 Retrieve a discovery url from discovery.etcd.io service.
 
@@ -15,7 +15,7 @@ $ npm install etcd-discovery-url --save
 ```javascript
 const discoveryUrl = require('etcd-discovery-url');
 
-let url = yield discoveryUrl; // 'https://discovery.etcd.io/ea08c54315144a0b5713aad4c4a9905f'
+let url = yield discoveryUrl(); // 'https://discovery.etcd.io/ea08c54315144a0b5713aad4c4a9905f'
 ```
 
 
