@@ -28,5 +28,8 @@
   "dependencies": {
     "got": "^4.1.1",
     "got-retry": "^1.0.3"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
